@@ -28,20 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.echo = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // echo
             // 
-            this.button1.Location = new System.Drawing.Point(43, 27);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "C-ECHO";
-            this.button1.UseVisualStyleBackColor = true;
+            this.echo.AccessibleName = "echo";
+            this.echo.Location = new System.Drawing.Point(43, 27);
+            this.echo.Name = "echo";
+            this.echo.Size = new System.Drawing.Size(75, 23);
+            this.echo.TabIndex = 0;
+            this.echo.Text = "C-ECHO";
+            this.echo.UseVisualStyleBackColor = true;
+            this.echo.Click += new System.EventHandler(this.echo_click);
             // 
             // button2
             // 
@@ -51,6 +53,7 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "C-FIND";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.find_click);
             // 
             // button3
             // 
@@ -60,6 +63,7 @@
             this.button3.TabIndex = 2;
             this.button3.Text = "C-MOVE";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.move_click);
             // 
             // button4
             // 
@@ -69,6 +73,7 @@
             this.button4.TabIndex = 3;
             this.button4.Text = "C-STORE";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.store_click);
             // 
             // Basic_Test
             // 
@@ -78,7 +83,7 @@
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.echo);
             this.Name = "Basic_Test";
             this.Text = "Basic_Test";
             this.Load += new System.EventHandler(this.Basic_Test_Load);
@@ -88,7 +93,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button echo;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;

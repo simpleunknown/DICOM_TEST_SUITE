@@ -1,0 +1,67 @@
+{
+  "connectionName" : "127.0.0.1",
+  "connectionPort" : 2500,
+  "SNI" : "127.0.0.1",
+  "TLSv1.2" : {
+    "suiteSelection" : "complex",
+    "suites" : [
+      {
+        "id" : 61,
+        "name" : "RSA_WITH_AES_256_CBC_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "ssl3Chains" : [
+    {
+      "length" : 1,
+      "decoded" : true,
+      "namesMatch" : true,
+      "includesRoot" : false,
+      "signHashes" : [
+        "SHA-1"
+      ],
+      "certificates" : [
+        {
+          "thumbprint" : "7667E43C51542A72A514DABC117E0FB5595B4537",
+          "decodable" : true,
+          "serialHex" : "04F0",
+          "subject" : "EMAILADDRESS=dicom@philips.com,CN=IWATT,OU=IOCC,O=Philips Healthcare,L=Best,ST=Brabant,C=NL",
+          "issuer" : "EMAILADDRESS=moultonr@mir.wustl.edu,CN=MIR2014-16,OU=Electronic Radiology Lab,O=Mallinckrodt Institute of Radiology,L=St. Louis,ST=Missouri,C=US",
+          "validFrom" : "2014-11-06 14:07:03 UTC",
+          "validTo" : "2016-10-30 14:07:03 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-1",
+          "selfIssued" : false,
+          "serverNames" : [
+            "IWATT"
+          ]
+        }
+      ]
+    }
+  ],
+  "deflateCompress" : false,
+  "serverTime" : "2019-05-20 14:59:51 UTC",
+  "serverTimeOffsetMillis" : -268,
+  "secureRenegotiation" : true,
+  "rfc7366EtM" : false,
+  "ssl2HelloFormat" : false,
+  "warnings" : [
+    {
+      "id" : "CS006",
+      "text" : "Server supports cipher suites with no forward secrecy."
+    },
+    {
+      "id" : "PV001",
+      "text" : "Server needs short ClientHello."
+    },
+    {
+      "id" : "XC001",
+      "text" : "Server certificate was signed with a weak/deprecated/unknown hash function."
+    }
+  ]
+}

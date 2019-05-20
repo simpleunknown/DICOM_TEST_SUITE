@@ -4,7 +4,6 @@ C:\Users\310253271\Desktop\cpp\DICOMTest\DICOMTest\bin\Debug\DICOMTest.pdb
 C:\Users\310253271\Desktop\cpp\DICOMTest\DICOMTest\bin\Debug\Dicom.Core.dll
 C:\Users\310253271\Desktop\cpp\DICOMTest\DICOMTest\bin\Debug\Dicom.Core.pdb
 C:\Users\310253271\Desktop\cpp\DICOMTest\DICOMTest\bin\Debug\Dicom.Core.xml
-C:\Users\310253271\Desktop\cpp\DICOMTest\DICOMTest\obj\Debug\DICOMTest.csprojResolveAssemblyReference.cache
 C:\Users\310253271\Desktop\cpp\DICOMTest\DICOMTest\obj\Debug\DICOMTest.Basic_Test.resources
 C:\Users\310253271\Desktop\cpp\DICOMTest\DICOMTest\obj\Debug\DICOMTest.DICOM_Test_Tool.resources
 C:\Users\310253271\Desktop\cpp\DICOMTest\DICOMTest\obj\Debug\DICOMTest.Properties.Resources.resources
@@ -12,3 +11,13 @@ C:\Users\310253271\Desktop\cpp\DICOMTest\DICOMTest\obj\Debug\DICOMTest.csproj.Ge
 C:\Users\310253271\Desktop\cpp\DICOMTest\DICOMTest\obj\Debug\DICOMTest.exe
 C:\Users\310253271\Desktop\cpp\DICOMTest\DICOMTest\obj\Debug\DICOMTest.pdb
 C:\Users\310253271\Desktop\cpp\DICOMTest\DICOMTest\obj\Debug\DICOMTest.Scan.resources
+C:\Users\310253271\Desktop\cpp\DICOMTest\DICOMTest\bin\Debug\NLog.config
+C:\Users\310253271\Desktop\cpp\DICOMTest\DICOMTest\bin\Debug\NLog.dll
+C:\Users\310253271\Desktop\cpp\DICOMTest\DICOMTest\bin\Debug\NLog.xml
+C:\Users\310253271\Desktop\cpp\DICOMTest\DICOMTest\bin\Debug\SaltwaterTaffy.dll
+C:\Users\310253271\Desktop\cpp\DICOMTest\DICOMTest\bin\Debug\Simple.DotNMap.dll
+C:\Users\310253271\Desktop\cpp\DICOMTest\DICOMTest\obj\Debug\DICOMTest.sysdetails.resources
+C:\Users\310253271\Desktop\cpp\DICOMTest\DICOMTest\obj\Debug\DICOMTest.csprojResolveAssemblyReference.cache
+C:\Users\310253271\Desktop\cpp\DICOMTest\DICOMTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\310253271\Desktop\cpp\DICOMTest\DICOMTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\310253271\Desktop\cpp\DICOMTest\DICOMTest\obj\Debug\DICOMTest.SSLResults.resources

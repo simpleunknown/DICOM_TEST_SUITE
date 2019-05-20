@@ -38,8 +38,26 @@
       <HintPath>..\packages\fo-dicom.Desktop.4.0.1\lib\net45\Dicom.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.4.6.3\lib\net45\NLog.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SaltwaterTaffy">
+      <HintPath>.\SaltwaterTaffy.dll</HintPath>
+    </Reference>
+    <Reference Include="Simple.DotNMap">
+      <HintPath>.\Simple.DotNMap.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -51,6 +69,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="autoscanbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="autoscanbox.Designer.cs">
+      <DependentUpon>autoscanbox.cs</DependentUpon>
+    </Compile>
     <Compile Include="Basic_Test.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +95,18 @@
     <Compile Include="Scan.Designer.cs">
       <DependentUpon>Scan.cs</DependentUpon>
     </Compile>
+    <Compile Include="SSLResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SSLResults.Designer.cs">
+      <DependentUpon>SSLResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sysdetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sysdetails.Designer.cs">
+      <DependentUpon>sysdetails.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Basic_Test.resx">
       <DependentUpon>Basic_Test.cs</DependentUpon>
     </EmbeddedResource>
@@ -89,6 +125,18 @@
     <EmbeddedResource Include="Scan.resx">
       <DependentUpon>Scan.cs</DependentUpon>
     </EmbeddedResource>
+    <Content Include="NLog.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="SSLResults.resx">
+      <DependentUpon>SSLResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sysdetails.resx">
+      <DependentUpon>sysdetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="NLog.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

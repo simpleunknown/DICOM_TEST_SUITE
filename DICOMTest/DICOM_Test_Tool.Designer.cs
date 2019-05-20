@@ -31,7 +31,9 @@
             this.Basic_Test = new System.Windows.Forms.Button();
             this.Scan_Test = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.SSL_button = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Basic_Test
@@ -66,21 +68,44 @@
             this.button1.Text = "Fuzz";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // SSL_button
             // 
-            this.button2.Location = new System.Drawing.Point(188, 79);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "SSL-Check";
-            this.button2.UseVisualStyleBackColor = true;
+            this.SSL_button.Location = new System.Drawing.Point(188, 79);
+            this.SSL_button.Name = "SSL_button";
+            this.SSL_button.Size = new System.Drawing.Size(75, 23);
+            this.SSL_button.TabIndex = 3;
+            this.SSL_button.Text = "SSL-Check";
+            this.SSL_button.UseVisualStyleBackColor = true;
+            this.SSL_button.Click += new System.EventHandler(this.SSL_Click_1);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(51, 185);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(167, 37);
+            this.button3.TabIndex = 4;
+            this.button3.Text = "Auto scan";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.Autoscanbutton_Click);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(188, 12);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 5;
+            this.button4.Text = "Config";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // DICOM_Test_Tool
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.SSL_button);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.Scan_Test);
             this.Controls.Add(this.Basic_Test);
@@ -96,7 +121,9 @@
         private System.Windows.Forms.Button Basic_Test;
         private System.Windows.Forms.Button Scan_Test;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button SSL_button;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
     }
 }
 

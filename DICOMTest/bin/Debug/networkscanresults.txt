@@ -1,0 +1,2000 @@
+	port 1
+ is running tcpmux
+	port 3
+ is running compressnet
+	port 4
+ is running unknown
+	port 6
+ is running unknown
+	port 7
+ is running echo
+	port 9
+ is running discard
+	port 13
+ is running daytime
+	port 17
+ is running qotd
+	port 19
+ is running chargen
+	port 20
+ is running ftp-data
+	port 21
+ is running ftp
+	port 22
+ is running ssh
+	port 23
+ is running telnet
+	port 24
+ is running priv-mail
+	port 25
+ is running smtp
+	port 26
+ is running rsftp
+	port 30
+ is running unknown
+	port 32
+ is running unknown
+	port 33
+ is running dsp
+	port 37
+ is running time
+	port 42
+ is running nameserver
+	port 43
+ is running whois
+	port 49
+ is running tacacs
+	port 53
+ is running domain
+	port 70
+ is running gopher
+	port 79
+ is running finger
+	port 80
+ is running http
+	port 81
+ is running hosts2-ns
+	port 82
+ is running xfer
+	port 83
+ is running mit-ml-dev
+	port 84
+ is running ctf
+	port 85
+ is running mit-ml-dev
+	port 88
+ is running kerberos-sec
+	port 89
+ is running su-mit-tg
+	port 90
+ is running dnsix
+	port 99
+ is running metagram
+	port 100
+ is running newacct
+	port 106
+ is running pop3pw
+	port 109
+ is running pop2
+	port 110
+ is running pop3
+	port 111
+ is running rpcbind
+	port 113
+ is running ident
+	port 119
+ is running nntp
+	port 125
+ is running locus-map
+	port 135
+ is running msrpc
+	port 139
+ is running netbios-ssn
+	port 143
+ is running imap
+	port 144
+ is running news
+	port 146
+ is running iso-tp0
+	port 161
+ is running snmp
+	port 163
+ is running cmip-man
+	port 179
+ is running bgp
+	port 199
+ is running smux
+	port 211
+ is running 914c-g
+	port 212
+ is running anet
+	port 222
+ is running rsh-spx
+	port 254
+ is running unknown
+	port 255
+ is running unknown
+	port 256
+ is running fw1-secureremote
+	port 259
+ is running esro-gen
+	port 264
+ is running bgmp
+	port 280
+ is running http-mgmt
+	port 301
+ is running unknown
+	port 306
+ is running unknown
+	port 311
+ is running asip-webadmin
+	port 340
+ is running unknown
+	port 366
+ is running odmr
+	port 389
+ is running ldap
+	port 406
+ is running imsp
+	port 407
+ is running timbuktu
+	port 416
+ is running silverplatter
+	port 417
+ is running onmux
+	port 425
+ is running icad-el
+	port 427
+ is running svrloc
+	port 443
+ is running https
+	port 444
+ is running snpp
+	port 445
+ is running microsoft-ds
+	port 458
+ is running appleqtc
+	port 464
+ is running kpasswd5
+	port 465
+ is running smtps
+	port 481
+ is running dvs
+	port 497
+ is running retrospect
+	port 500
+ is running isakmp
+	port 512
+ is running exec
+	port 513
+ is running login
+	port 514
+ is running shell
+	port 515
+ is running printer
+	port 524
+ is running ncp
+	port 541
+ is running uucp-rlogin
+	port 543
+ is running klogin
+	port 544
+ is running kshell
+	port 545
+ is running ekshell
+	port 548
+ is running afp
+	port 554
+ is running rtsp
+	port 555
+ is running dsf
+	port 563
+ is running snews
+	port 587
+ is running submission
+	port 593
+ is running http-rpc-epmap
+	port 616
+ is running sco-sysmgr
+	port 617
+ is running sco-dtmgr
+	port 625
+ is running apple-xsrvr-admin
+	port 631
+ is running ipp
+	port 636
+ is running ldapssl
+	port 646
+ is running ldp
+	port 648
+ is running rrp
+	port 666
+ is running doom
+	port 667
+ is running disclose
+	port 668
+ is running mecomm
+	port 683
+ is running corba-iiop
+	port 687
+ is running asipregistry
+	port 691
+ is running resvc
+	port 700
+ is running epp
+	port 705
+ is running agentx
+	port 711
+ is running cisco-tdp
+	port 714
+ is running iris-xpcs
+	port 720
+ is running unknown
+	port 722
+ is running unknown
+	port 726
+ is running unknown
+	port 749
+ is running kerberos-adm
+	port 765
+ is running webster
+	port 777
+ is running multiling-http
+	port 783
+ is running spamassassin
+	port 787
+ is running qsc
+	port 800
+ is running mdbs_daemon
+	port 801
+ is running device
+	port 808
+ is running ccproxy-http
+	port 843
+ is running unknown
+	port 873
+ is running rsync
+	port 880
+ is running unknown
+	port 888
+ is running accessbuilder
+	port 898
+ is running sun-manageconsole
+	port 900
+ is running omginitialrefs
+	port 901
+ is running samba-swat
+	port 902
+ is running iss-realsecure
+	port 903
+ is running iss-console-mgr
+	port 911
+ is running xact-backup
+	port 912
+ is running apex-mesh
+	port 981
+ is running unknown
+	port 987
+ is running unknown
+	port 990
+ is running ftps
+	port 992
+ is running telnets
+	port 993
+ is running imaps
+	port 995
+ is running pop3s
+	port 999
+ is running garcon
+	port 1000
+ is running cadlock
+	port 1001
+ is running unknown
+	port 1002
+ is running windows-icfw
+	port 1007
+ is running unknown
+	port 1009
+ is running unknown
+	port 1010
+ is running surf
+	port 1011
+ is running unknown
+	port 1021
+ is running exp1
+	port 1022
+ is running exp2
+	port 1023
+ is running netvenuechat
+	port 1024
+ is running kdm
+	port 1025
+ is running NFS-or-IIS
+	port 1026
+ is running LSA-or-nterm
+	port 1027
+ is running IIS
+	port 1028
+ is running unknown
+	port 1029
+ is running ms-lsa
+	port 1030
+ is running iad1
+	port 1031
+ is running iad2
+	port 1032
+ is running iad3
+	port 1033
+ is running netinfo
+	port 1034
+ is running zincite-a
+	port 1035
+ is running multidropper
+	port 1036
+ is running nsstp
+	port 1037
+ is running ams
+	port 1038
+ is running mtqp
+	port 1039
+ is running sbl
+	port 1040
+ is running netsaint
+	port 1041
+ is running danf-ak2
+	port 1042
+ is running afrog
+	port 1043
+ is running boinc
+	port 1044
+ is running dcutility
+	port 1045
+ is running fpitp
+	port 1046
+ is running wfremotertm
+	port 1047
+ is running neod1
+	port 1048
+ is running neod2
+	port 1049
+ is running td-postman
+	port 1050
+ is running java-or-OTGfileshare
+	port 1051
+ is running optima-vnet
+	port 1052
+ is running ddt
+	port 1053
+ is running remote-as
+	port 1054
+ is running brvread
+	port 1055
+ is running ansyslmd
+	port 1056
+ is running vfo
+	port 1057
+ is running startron
+	port 1058
+ is running nim
+	port 1059
+ is running nimreg
+	port 1060
+ is running polestar
+	port 1061
+ is running kiosk
+	port 1062
+ is running veracity
+	port 1063
+ is running kyoceranetdev
+	port 1064
+ is running jstel
+	port 1065
+ is running syscomlan
+	port 1066
+ is running fpo-fns
+	port 1067
+ is running instl_boots
+	port 1068
+ is running instl_bootc
+	port 1069
+ is running cognex-insight
+	port 1070
+ is running gmrupdateserv
+	port 1071
+ is running bsquare-voip
+	port 1072
+ is running cardax
+	port 1073
+ is running bridgecontrol
+	port 1074
+ is running warmspotMgmt
+	port 1075
+ is running rdrmshc
+	port 1076
+ is running sns_credit
+	port 1077
+ is running imgames
+	port 1078
+ is running avocent-proxy
+	port 1079
+ is running asprovatalk
+	port 1080
+ is running socks
+	port 1081
+ is running pvuniwien
+	port 1082
+ is running amt-esd-prot
+	port 1083
+ is running ansoft-lm-1
+	port 1084
+ is running ansoft-lm-2
+	port 1085
+ is running webobjects
+	port 1086
+ is running cplscrambler-lg
+	port 1087
+ is running cplscrambler-in
+	port 1088
+ is running cplscrambler-al
+	port 1089
+ is running ff-annunc
+	port 1090
+ is running ff-fms
+	port 1091
+ is running ff-sm
+	port 1092
+ is running obrpd
+	port 1093
+ is running proofd
+	port 1094
+ is running rootd
+	port 1095
+ is running nicelink
+	port 1096
+ is running cnrprotocol
+	port 1097
+ is running sunclustermgr
+	port 1098
+ is running rmiactivation
+	port 1099
+ is running rmiregistry
+	port 1100
+ is running mctp
+	port 1102
+ is running adobeserver-1
+	port 1104
+ is running xrl
+	port 1105
+ is running ftranhc
+	port 1106
+ is running isoipsigport-1
+	port 1107
+ is running isoipsigport-2
+	port 1108
+ is running ratio-adp
+	port 1110
+ is running nfsd-status
+	port 1111
+ is running lmsocialserver
+	port 1112
+ is running msql
+	port 1113
+ is running ltp-deepspace
+	port 1114
+ is running mini-sql
+	port 1117
+ is running ardus-mtrns
+	port 1119
+ is running bnetgame
+	port 1121
+ is running rmpp
+	port 1122
+ is running availant-mgr
+	port 1123
+ is running murray
+	port 1124
+ is running hpvmmcontrol
+	port 1126
+ is running hpvmmdata
+	port 1130
+ is running casp
+	port 1131
+ is running caspssl
+	port 1132
+ is running kvm-via-ip
+	port 1137
+ is running trim
+	port 1138
+ is running encrypted_admin
+	port 1141
+ is running mxomss
+	port 1145
+ is running x9-icue
+	port 1147
+ is running capioverlan
+	port 1148
+ is running elfiq-repl
+	port 1149
+ is running bvtsonar
+	port 1151
+ is running unizensus
+	port 1152
+ is running winpoplanmess
+	port 1154
+ is running resacommunity
+	port 1163
+ is running sddp
+	port 1164
+ is running qsm-proxy
+	port 1165
+ is running qsm-gui
+	port 1166
+ is running qsm-remote
+	port 1169
+ is running tripwire
+	port 1174
+ is running fnet-remote-ui
+	port 1175
+ is running dossier
+	port 1183
+ is running llsurfup-http
+	port 1185
+ is running catchpole
+	port 1186
+ is running mysql-cluster
+	port 1187
+ is running alias
+	port 1192
+ is running caids-sensor
+	port 1198
+ is running cajo-discovery
+	port 1199
+ is running dmidi
+	port 1201
+ is running nucleus-sand
+	port 1213
+ is running mpc-lifenet
+	port 1216
+ is running etebac5
+	port 1217
+ is running hpss-ndapi
+	port 1218
+ is running aeroflight-ads
+	port 1233
+ is running univ-appserver
+	port 1234
+ is running hotline
+	port 1236
+ is running bvcontrol
+	port 1244
+ is running isbconference1
+	port 1247
+ is running visionpyramid
+	port 1248
+ is running hermes
+	port 1259
+ is running opennl-voice
+	port 1271
+ is running excw
+	port 1272
+ is running cspmlockmgr
+	port 1277
+ is running miva-mqs
+	port 1287
+ is running routematch
+	port 1296
+ is running dproxy
+	port 1300
+ is running h323hostcallsc
+	port 1301
+ is running ci3-software-1
+	port 1309
+ is running jtag-server
+	port 1310
+ is running husky
+	port 1311
+ is running rxmon
+	port 1322
+ is running novation
+	port 1328
+ is running ewall
+	port 1334
+ is running writesrv
+	port 1352
+ is running lotusnotes
+	port 1417
+ is running timbuktu-srv1
+	port 1433
+ is running ms-sql-s
+	port 1434
+ is running ms-sql-m
+	port 1443
+ is running ies-lm
+	port 1455
+ is running esl-lm
+	port 1461
+ is running ibm_wrless_lan
+	port 1494
+ is running citrix-ica
+	port 1500
+ is running vlsi-lm
+	port 1501
+ is running sas-3
+	port 1503
+ is running imtc-mcs
+	port 1521
+ is running oracle
+	port 1524
+ is running ingreslock
+	port 1533
+ is running virtual-places
+	port 1556
+ is running veritas_pbx
+	port 1580
+ is running tn-tl-r1
+	port 1583
+ is running simbaexpress
+	port 1594
+ is running sixtrak
+	port 1600
+ is running issd
+	port 1641
+ is running invision
+	port 1658
+ is running sixnetudr
+	port 1666
+ is running netview-aix-6
+	port 1687
+ is running nsjtp-ctrl
+	port 1688
+ is running nsjtp-data
+	port 1700
+ is running mps-raft
+	port 1717
+ is running fj-hdnet
+	port 1718
+ is running h323gatedisc
+	port 1719
+ is running h323gatestat
+	port 1720
+ is running h323q931
+	port 1721
+ is running caicci
+	port 1723
+ is running pptp
+	port 1755
+ is running wms
+	port 1761
+ is running landesk-rc
+	port 1782
+ is running hp-hcip
+	port 1783
+ is running unknown
+	port 1801
+ is running msmq
+	port 1805
+ is running enl-name
+	port 1812
+ is running radius
+	port 1839
+ is running netopia-vo1
+	port 1840
+ is running netopia-vo2
+	port 1862
+ is running mysql-cm-agent
+	port 1863
+ is running msnp
+	port 1864
+ is running paradym-31
+	port 1875
+ is running westell-stats
+	port 1900
+ is running upnp
+	port 1914
+ is running elm-momentum
+	port 1935
+ is running rtmp
+	port 1947
+ is running sentinelsrm
+	port 1971
+ is running netop-school
+	port 1972
+ is running intersys-cache
+	port 1974
+ is running drp
+	port 1984
+ is running bigbrother
+	port 1998
+ is running x25-svc-port
+	port 1999
+ is running tcp-id-port
+	port 2000
+ is running cisco-sccp
+	port 2001
+ is running dc
+	port 2002
+ is running globe
+	port 2003
+ is running finger
+	port 2004
+ is running mailbox
+	port 2005
+ is running deslogin
+	port 2006
+ is running invokator
+	port 2007
+ is running dectalk
+	port 2008
+ is running conf
+	port 2009
+ is running news
+	port 2010
+ is running search
+	port 2013
+ is running raid-am
+	port 2020
+ is running xinupageserver
+	port 2021
+ is running servexec
+	port 2022
+ is running down
+	port 2030
+ is running device2
+	port 2033
+ is running glogger
+	port 2034
+ is running scoremgr
+	port 2035
+ is running imsldoc
+	port 2038
+ is running objectmanager
+	port 2040
+ is running lam
+	port 2041
+ is running interbase
+	port 2042
+ is running isis
+	port 2043
+ is running isis-bcast
+	port 2045
+ is running cdfunc
+	port 2046
+ is running sdfunc
+	port 2047
+ is running dls
+	port 2048
+ is running dls-monitor
+	port 2049
+ is running nfs
+	port 2065
+ is running dlsrpn
+	port 2068
+ is running avocentkvm
+	port 2099
+ is running h2250-annex-g
+	port 2100
+ is running amiganetfs
+	port 2103
+ is running zephyr-clt
+	port 2105
+ is running eklogin
+	port 2106
+ is running ekshell
+	port 2107
+ is running msmq-mgmt
+	port 2111
+ is running kx
+	port 2119
+ is running gsigatekeeper
+	port 2121
+ is running ccproxy-ftp
+	port 2126
+ is running pktcable-cops
+	port 2135
+ is running gris
+	port 2144
+ is running lv-ffx
+	port 2160
+ is running apc-2160
+	port 2161
+ is running apc-agent
+	port 2170
+ is running eyetv
+	port 2179
+ is running vmrdp
+	port 2190
+ is running tivoconnect
+	port 2191
+ is running tvbus
+	port 2196
+ is running unknown
+	port 2200
+ is running ici
+	port 2222
+ is running EtherNetIP-1
+	port 2251
+ is running dif-port
+	port 2260
+ is running apc-2260
+	port 2288
+ is running netml
+	port 2301
+ is running compaqdiag
+	port 2323
+ is running 3d-nfsd
+	port 2366
+ is running qip-login
+	port 2381
+ is running compaq-https
+	port 2382
+ is running ms-olap3
+	port 2383
+ is running ms-olap4
+	port 2393
+ is running ms-olap1
+	port 2394
+ is running ms-olap2
+	port 2399
+ is running fmpro-fdal
+	port 2401
+ is running cvspserver
+	port 2492
+ is running groove
+	port 2500
+ is running rtsserv
+	port 2522
+ is running windb
+	port 2525
+ is running ms-v-worlds
+	port 2557
+ is running nicetec-mgmt
+	port 2601
+ is running zebra
+	port 2602
+ is running ripd
+	port 2604
+ is running ospfd
+	port 2605
+ is running bgpd
+	port 2607
+ is running connection
+	port 2608
+ is running wag-service
+	port 2638
+ is running sybase
+	port 2701
+ is running sms-rcinfo
+	port 2702
+ is running sms-xfer
+	port 2710
+ is running sso-service
+	port 2717
+ is running pn-requester
+	port 2718
+ is running pn-requester2
+	port 2725
+ is running msolap-ptp2
+	port 2800
+ is running acc-raid
+	port 2809
+ is running corbaloc
+	port 2811
+ is running gsiftp
+	port 2869
+ is running icslap
+	port 2875
+ is running dxmessagebase2
+	port 2909
+ is running funk-dialout
+	port 2910
+ is running tdaccess
+	port 2920
+ is running roboeda
+	port 2967
+ is running symantec-av
+	port 2968
+ is running enpp
+	port 2998
+ is running iss-realsec
+	port 3000
+ is running ppp
+	port 3001
+ is running nessus
+	port 3003
+ is running cgms
+	port 3005
+ is running deslogin
+	port 3006
+ is running deslogind
+	port 3007
+ is running lotusmtap
+	port 3011
+ is running trusted-web
+	port 3013
+ is running gilatskysurfer
+	port 3017
+ is running event_listener
+	port 3030
+ is running arepa-cas
+	port 3031
+ is running eppc
+	port 3052
+ is running powerchute
+	port 3071
+ is running csd-mgmt-port
+	port 3077
+ is running orbix-loc-ssl
+	port 3128
+ is running squid-http
+	port 3168
+ is running poweronnud
+	port 3211
+ is running avsecuremgmt
+	port 3221
+ is running xnm-clear-text
+	port 3260
+ is running iscsi
+	port 3261
+ is running winshadow
+	port 3268
+ is running globalcatLDAP
+	port 3269
+ is running globalcatLDAPssl
+	port 3283
+ is running netassistant
+	port 3300
+ is running unknown
+	port 3301
+ is running unknown
+	port 3306
+ is running mysql
+	port 3322
+ is running active-net
+	port 3323
+ is running active-net
+	port 3324
+ is running active-net
+	port 3325
+ is running active-net
+	port 3333
+ is running dec-notes
+	port 3351
+ is running btrieve
+	port 3367
+ is running satvid-datalnk
+	port 3369
+ is running satvid-datalnk
+	port 3370
+ is running satvid-datalnk
+	port 3371
+ is running satvid-datalnk
+	port 3372
+ is running msdtc
+	port 3389
+ is running ms-wbt-server
+	port 3390
+ is running dsc
+	port 3404
+ is running unknown
+	port 3476
+ is running nppmp
+	port 3493
+ is running nut
+	port 3517
+ is running 802-11-iapp
+	port 3527
+ is running beserver-msg-q
+	port 3546
+ is running unknown
+	port 3551
+ is running apcupsd
+	port 3580
+ is running nati-svrloc
+	port 3659
+ is running apple-sasl
+	port 3689
+ is running rendezvous
+	port 3690
+ is running svn
+	port 3703
+ is running adobeserver-3
+	port 3737
+ is running xpanel
+	port 3766
+ is running unknown
+	port 3784
+ is running bfd-control
+	port 3800
+ is running pwgpsi
+	port 3801
+ is running ibm-mgr
+	port 3809
+ is running apocd
+	port 3814
+ is running neto-dcs
+	port 3826
+ is running wormux
+	port 3827
+ is running netmpi
+	port 3828
+ is running neteh
+	port 3851
+ is running spectraport
+	port 3869
+ is running ovsam-mgmt
+	port 3871
+ is running avocent-adsap
+	port 3878
+ is running fotogcad
+	port 3880
+ is running igrs
+	port 3889
+ is running dandv-tester
+	port 3905
+ is running mupdate
+	port 3914
+ is running listcrt-port-2
+	port 3918
+ is running pktcablemmcops
+	port 3920
+ is running exasoftport1
+	port 3945
+ is running emcads
+	port 3971
+ is running lanrevserver
+	port 3986
+ is running mapper-ws_ethd
+	port 3995
+ is running iss-mgmt-ssl
+	port 3998
+ is running dnx
+	port 4000
+ is running remoteanything
+	port 4001
+ is running newoak
+	port 4002
+ is running mlchat-proxy
+	port 4003
+ is running pxc-splr-ft
+	port 4004
+ is running pxc-roid
+	port 4005
+ is running pxc-pin
+	port 4006
+ is running pxc-spvr
+	port 4045
+ is running lockd
+	port 4111
+ is running xgrid
+	port 4125
+ is running rww
+	port 4126
+ is running ddrepl
+	port 4129
+ is running nuauth
+	port 4224
+ is running xtell
+	port 4242
+ is running vrml-multi-use
+	port 4279
+ is running vrml-multi-use
+	port 4321
+ is running rwhois
+	port 4343
+ is running unicall
+	port 4443
+ is running pharos
+	port 4444
+ is running krb524
+	port 4445
+ is running upnotifyp
+	port 4446
+ is running n1-fwp
+	port 4449
+ is running privatewire
+	port 4550
+ is running gds-adppiw-db
+	port 4567
+ is running tram
+	port 4662
+ is running edonkey
+	port 4848
+ is running appserv-http
+	port 4899
+ is running radmin
+	port 4900
+ is running hfcs
+	port 4998
+ is running maybe-veritas
+	port 5000
+ is running upnp
+	port 5001
+ is running commplex-link
+	port 5002
+ is running rfe
+	port 5003
+ is running filemaker
+	port 5004
+ is running avt-profile-1
+	port 5009
+ is running airport-admin
+	port 5030
+ is running surfpass
+	port 5033
+ is running unknown
+	port 5050
+ is running mmcc
+	port 5051
+ is running ida-agent
+	port 5054
+ is running rlm-admin
+	port 5060
+ is running sip
+	port 5061
+ is running sip-tls
+	port 5080
+ is running onscreen
+	port 5087
+ is running unknown
+	port 5100
+ is running admd
+	port 5101
+ is running admdog
+	port 5102
+ is running admeng
+	port 5120
+ is running unknown
+	port 5190
+ is running aol
+	port 5200
+ is running targus-getdata
+	port 5214
+ is running unknown
+	port 5221
+ is running 3exmp
+	port 5222
+ is running xmpp-client
+	port 5225
+ is running hp-server
+	port 5226
+ is running hp-status
+	port 5269
+ is running xmpp-server
+	port 5280
+ is running xmpp-bosh
+	port 5298
+ is running presence
+	port 5357
+ is running wsdapi
+	port 5405
+ is running pcduo
+	port 5414
+ is running statusd
+	port 5431
+ is running park-agent
+	port 5432
+ is running postgresql
+	port 5440
+ is running unknown
+	port 5500
+ is running hotline
+	port 5510
+ is running secureidprop
+	port 5544
+ is running unknown
+	port 5550
+ is running sdadmind
+	port 5555
+ is running freeciv
+	port 5560
+ is running isqlplus
+	port 5566
+ is running westec-connect
+	port 5631
+ is running pcanywheredata
+	port 5633
+ is running beorl
+	port 5666
+ is running nrpe
+	port 5678
+ is running rrac
+	port 5679
+ is running activesync
+	port 5718
+ is running dpm
+	port 5730
+ is running unieng
+	port 5800
+ is running vnc-http
+	port 5801
+ is running vnc-http-1
+	port 5802
+ is running vnc-http-2
+	port 5810
+ is running unknown
+	port 5811
+ is running unknown
+	port 5815
+ is running unknown
+	port 5822
+ is running unknown
+	port 5825
+ is running unknown
+	port 5850
+ is running unknown
+	port 5859
+ is running wherehoo
+	port 5862
+ is running unknown
+	port 5877
+ is running unknown
+	port 5900
+ is running vnc
+	port 5901
+ is running vnc-1
+	port 5902
+ is running vnc-2
+	port 5903
+ is running vnc-3
+	port 5904
+ is running unknown
+	port 5906
+ is running unknown
+	port 5907
+ is running unknown
+	port 5910
+ is running cm
+	port 5911
+ is running cpdlc
+	port 5915
+ is running unknown
+	port 5922
+ is running unknown
+	port 5925
+ is running unknown
+	port 5950
+ is running unknown
+	port 5952
+ is running unknown
+	port 5959
+ is running unknown
+	port 5960
+ is running unknown
+	port 5961
+ is running unknown
+	port 5962
+ is running unknown
+	port 5963
+ is running indy
+	port 5987
+ is running wbem-rmi
+	port 5988
+ is running wbem-http
+	port 5989
+ is running wbem-https
+	port 5998
+ is running ncd-diag
+	port 5999
+ is running ncd-conf
+	port 6000
+ is running X11
+	port 6001
+ is running X11:1
+	port 6002
+ is running X11:2
+	port 6003
+ is running X11:3
+	port 6004
+ is running X11:4
+	port 6005
+ is running X11:5
+	port 6006
+ is running X11:6
+	port 6007
+ is running X11:7
+	port 6009
+ is running X11:9
+	port 6025
+ is running x11
+	port 6059
+ is running X11:59
+	port 6100
+ is running synchronet-db
+	port 6101
+ is running backupexec
+	port 6106
+ is running isdninfo
+	port 6112
+ is running dtspc
+	port 6123
+ is running backup-express
+	port 6129
+ is running unknown
+	port 6156
+ is running unknown
+	port 6346
+ is running gnutella
+	port 6389
+ is running clariion-evr01
+	port 6502
+ is running netop-rc
+	port 6510
+ is running mcer-port
+	port 6543
+ is running mythtv
+	port 6547
+ is running powerchuteplus
+	port 6565
+ is running unknown
+	port 6566
+ is running sane-port
+	port 6567
+ is running esp
+	port 6580
+ is running parsec-master
+	port 6646
+ is running unknown
+	port 6666
+ is running irc
+	port 6667
+ is running irc
+	port 6668
+ is running irc
+	port 6669
+ is running irc
+	port 6689
+ is running tsa
+	port 6692
+ is running unknown
+	port 6699
+ is running napster
+	port 6779
+ is running unknown
+	port 6788
+ is running smc-http
+	port 6789
+ is running ibm-db2-admin
+	port 6792
+ is running unknown
+	port 6839
+ is running unknown
+	port 6881
+ is running bittorrent-tracker
+	port 6901
+ is running jetstream
+	port 6969
+ is running acmsoda
+	port 7000
+ is running afs3-fileserver
+	port 7001
+ is running afs3-callback
+	port 7002
+ is running afs3-prserver
+	port 7004
+ is running afs3-kaserver
+	port 7007
+ is running afs3-bos
+	port 7019
+ is running unknown
+	port 7025
+ is running vmsvc-2
+	port 7070
+ is running realserver
+	port 7100
+ is running font-service
+	port 7103
+ is running unknown
+	port 7106
+ is running unknown
+	port 7200
+ is running fodms
+	port 7201
+ is running dlip
+	port 7402
+ is running rtps-dd-mt
+	port 7435
+ is running unknown
+	port 7443
+ is running oracleas-https
+	port 7496
+ is running unknown
+	port 7512
+ is running unknown
+	port 7625
+ is running unknown
+	port 7627
+ is running soap-http
+	port 7676
+ is running imqbrokerd
+	port 7741
+ is running scriptview
+	port 7777
+ is running cbt
+	port 7778
+ is running interwise
+	port 7800
+ is running asr
+	port 7911
+ is running unknown
+	port 7920
+ is running unknown
+	port 7921
+ is running unknown
+	port 7937
+ is running nsrexecd
+	port 7938
+ is running lgtomapper
+	port 7999
+ is running irdmi2
+	port 8000
+ is running http-alt
+	port 8001
+ is running vcom-tunnel
+	port 8002
+ is running teradataordbms
+	port 8007
+ is running ajp12
+	port 8008
+ is running http
+	port 8009
+ is running ajp13
+	port 8010
+ is running xmpp
+	port 8011
+ is running unknown
+	port 8021
+ is running ftp-proxy
+	port 8022
+ is running oa-system
+	port 8031
+ is running unknown
+	port 8042
+ is running fs-agent
+	port 8045
+ is running unknown
+	port 8080
+ is running http-proxy
+	port 8081
+ is running blackice-icecap
+	port 8082
+ is running blackice-alerts
+	port 8083
+ is running us-srv
+	port 8084
+ is running unknown
+	port 8085
+ is running unknown
+	port 8086
+ is running d-s-n
+	port 8087
+ is running simplifymedia
+	port 8088
+ is running radan-http
+	port 8089
+ is running unknown
+	port 8090
+ is running unknown
+	port 8093
+ is running unknown
+	port 8099
+ is running unknown
+	port 8100
+ is running xprint-server
+	port 8180
+ is running unknown
+	port 8181
+ is running unknown
+	port 8192
+ is running sophos
+	port 8193
+ is running sophos
+	port 8194
+ is running sophos
+	port 8200
+ is running trivnet1
+	port 8222
+ is running unknown
+	port 8254
+ is running unknown
+	port 8290
+ is running unknown
+	port 8291
+ is running unknown
+	port 8292
+ is running blp3
+	port 8300
+ is running tmi
+	port 8333
+ is running bitcoin
+	port 8383
+ is running m2mservices
+	port 8400
+ is running cvd
+	port 8402
+ is running abarsd
+	port 8443
+ is running https-alt
+	port 8500
+ is running fmtp
+	port 8600
+ is running asterix
+	port 8649
+ is running unknown
+	port 8651
+ is running unknown
+	port 8652
+ is running unknown
+	port 8654
+ is running unknown
+	port 8701
+ is running unknown
+	port 8800
+ is running sunwebadmin
+	port 8873
+ is running dxspider
+	port 8888
+ is running sun-answerbook
+	port 8899
+ is running ospf-lite
+	port 8994
+ is running unknown
+	port 9000
+ is running cslistener
+	port 9001
+ is running tor-orport
+	port 9002
+ is running dynamid
+	port 9003
+ is running unknown
+	port 9009
+ is running pichat
+	port 9010
+ is running sdr
+	port 9011
+ is running unknown
+	port 9040
+ is running tor-trans
+	port 9050
+ is running tor-socks
+	port 9071
+ is running unknown
+	port 9080
+ is running glrpc
+	port 9081
+ is running unknown
+	port 9090
+ is running zeus-admin
+	port 9091
+ is running xmltec-xmlmail
+	port 9099
+ is running unknown
+	port 9100
+ is running jetdirect
+	port 9101
+ is running jetdirect
+	port 9102
+ is running jetdirect
+	port 9103
+ is running jetdirect
+	port 9110
+ is running unknown
+	port 9111
+ is running DragonIDSConsole
+	port 9200
+ is running wap-wsp
+	port 9207
+ is running wap-vcal-s
+	port 9220
+ is running unknown
+	port 9290
+ is running unknown
+	port 9415
+ is running unknown
+	port 9418
+ is running git
+	port 9485
+ is running unknown
+	port 9500
+ is running ismserver
+	port 9502
+ is running unknown
+	port 9503
+ is running unknown
+	port 9535
+ is running man
+	port 9575
+ is running unknown
+	port 9593
+ is running cba8
+	port 9594
+ is running msgsys
+	port 9595
+ is running pds
+	port 9618
+ is running condor
+	port 9666
+ is running unknown
+	port 9876
+ is running sd
+	port 9877
+ is running unknown
+	port 9878
+ is running unknown
+	port 9898
+ is running monkeycom
+	port 9900
+ is running iua
+	port 9917
+ is running unknown
+	port 9929
+ is running nping-echo
+	port 9943
+ is running unknown
+	port 9944
+ is running unknown
+	port 9968
+ is running unknown
+	port 9998
+ is running distinct32
+	port 9999
+ is running abyss
+	port 10000
+ is running snet-sensor-mgmt
+	port 10001
+ is running scp-config
+	port 10002
+ is running documentum
+	port 10003
+ is running documentum_s
+	port 10004
+ is running emcrmirccd
+	port 10009
+ is running swdtp-sv
+	port 10010
+ is running rxapi
+	port 10012
+ is running unknown
+	port 10024
+ is running unknown
+	port 10025
+ is running unknown
+	port 10082
+ is running amandaidx
+	port 10180
+ is running unknown
+	port 10215
+ is running unknown
+	port 10243
+ is running unknown
+	port 10566
+ is running unknown
+	port 10616
+ is running unknown
+	port 10617
+ is running unknown
+	port 10621
+ is running unknown
+	port 10626
+ is running unknown
+	port 10628
+ is running unknown
+	port 10629
+ is running unknown
+	port 10778
+ is running unknown
+	port 11110
+ is running unknown
+	port 11111
+ is running vce
+	port 11967
+ is running sysinfo-sp
+	port 12000
+ is running cce4x
+	port 12174
+ is running unknown
+	port 12265
+ is running unknown
+	port 12345
+ is running netbus
+	port 13456
+ is running unknown
+	port 13722
+ is running netbackup
+	port 13782
+ is running netbackup
+	port 13783
+ is running netbackup
+	port 14000
+ is running scotty-ft
+	port 14238
+ is running unknown
+	port 14441
+ is running unknown
+	port 14442
+ is running unknown
+	port 15000
+ is running hydap
+	port 15002
+ is running unknown
+	port 15003
+ is running unknown
+	port 15004
+ is running unknown
+	port 15660
+ is running bex-xr
+	port 15742
+ is running unknown
+	port 16000
+ is running fmsas
+	port 16001
+ is running fmsascon
+	port 16012
+ is running unknown
+	port 16016
+ is running unknown
+	port 16018
+ is running unknown
+	port 16080
+ is running osxwebadmin
+	port 16113
+ is running unknown
+	port 16992
+ is running amt-soap-http
+	port 16993
+ is running amt-soap-https
+	port 17877
+ is running unknown
+	port 17988
+ is running unknown
+	port 18040
+ is running unknown
+	port 18101
+ is running unknown
+	port 18988
+ is running unknown
+	port 19101
+ is running unknown
+	port 19283
+ is running keysrvr
+	port 19315
+ is running keyshadow
+	port 19350
+ is running unknown
+	port 19780
+ is running unknown
+	port 19801
+ is running unknown
+	port 19842
+ is running unknown
+	port 20000
+ is running dnp
+	port 20005
+ is running btx
+	port 20031
+ is running unknown
+	port 20221
+ is running unknown
+	port 20222
+ is running ipulse-ics
+	port 20828
+ is running unknown
+	port 21571
+ is running unknown
+	port 22939
+ is running unknown
+	port 23502
+ is running unknown
+	port 24444
+ is running unknown
+	port 24800
+ is running unknown
+	port 25734
+ is running unknown
+	port 25735
+ is running unknown
+	port 26214
+ is running unknown
+	port 27000
+ is running flexlm0
+	port 27352
+ is running unknown
+	port 27353
+ is running unknown
+	port 27355
+ is running unknown
+	port 27356
+ is running unknown
+	port 27715
+ is running unknown
+	port 28201
+ is running unknown
+	port 30000
+ is running unknown
+	port 30718
+ is running unknown
+	port 30951
+ is running unknown
+	port 31038
+ is running unknown
+	port 31337
+ is running Elite
+	port 32768
+ is running filenet-tms
+	port 32769
+ is running filenet-rpc
+	port 32770
+ is running sometimes-rpc3
+	port 32771
+ is running sometimes-rpc5
+	port 32772
+ is running sometimes-rpc7
+	port 32773
+ is running sometimes-rpc9
+	port 32774
+ is running sometimes-rpc11
+	port 32775
+ is running sometimes-rpc13
+	port 32776
+ is running sometimes-rpc15
+	port 32777
+ is running sometimes-rpc17
+	port 32778
+ is running sometimes-rpc19
+	port 32779
+ is running sometimes-rpc21
+	port 32780
+ is running sometimes-rpc23
+	port 32781
+ is running unknown
+	port 32782
+ is running unknown
+	port 32783
+ is running unknown
+	port 32784
+ is running unknown
+	port 32785
+ is running unknown
+	port 33354
+ is running unknown
+	port 33899
+ is running unknown
+	port 34571
+ is running unknown
+	port 34572
+ is running unknown
+	port 34573
+ is running unknown
+	port 35500
+ is running unknown
+	port 38292
+ is running landesk-cba
+	port 40193
+ is running unknown
+	port 40911
+ is running unknown
+	port 41511
+ is running unknown
+	port 42510
+ is running caerpc
+	port 44176
+ is running unknown
+	port 44442
+ is running coldfusion-auth
+	port 44443
+ is running coldfusion-auth
+	port 44501
+ is running unknown
+	port 45100
+ is running unknown
+	port 48080
+ is running unknown
+	port 49152
+ is running unknown
+	port 49153
+ is running unknown
+	port 49154
+ is running unknown
+	port 49155
+ is running unknown
+	port 49156
+ is running unknown
+	port 49157
+ is running unknown
+	port 49158
+ is running unknown
+	port 49159
+ is running unknown
+	port 49160
+ is running unknown
+	port 49161
+ is running unknown
+	port 49163
+ is running unknown
+	port 49165
+ is running unknown
+	port 49167
+ is running unknown
+	port 49175
+ is running unknown
+	port 49176
+ is running unknown
+	port 49400
+ is running compaqdiag
+	port 49999
+ is running unknown
+	port 50000
+ is running ibm-db2
+	port 50001
+ is running unknown
+	port 50002
+ is running iiimsf
+	port 50003
+ is running unknown
+	port 50006
+ is running unknown
+	port 50300
+ is running unknown
+	port 50389
+ is running unknown
+	port 50500
+ is running unknown
+	port 50636
+ is running unknown
+	port 50800
+ is running unknown
+	port 51103
+ is running unknown
+	port 51493
+ is running unknown
+	port 52673
+ is running unknown
+	port 52822
+ is running unknown
+	port 52848
+ is running unknown
+	port 52869
+ is running unknown
+	port 54045
+ is running unknown
+	port 54328
+ is running unknown
+	port 55055
+ is running unknown
+	port 55056
+ is running unknown
+	port 55555
+ is running unknown
+	port 55600
+ is running unknown
+	port 56737
+ is running unknown
+	port 56738
+ is running unknown
+	port 57294
+ is running unknown
+	port 57797
+ is running unknown
+	port 58080
+ is running unknown
+	port 60020
+ is running unknown
+	port 60443
+ is running unknown
+	port 61532
+ is running unknown
+	port 61900
+ is running unknown
+	port 62078
+ is running iphone-sync
+	port 63331
+ is running unknown
+	port 64623
+ is running unknown
+	port 64680
+ is running unknown
+	port 65000
+ is running unknown
+	port 65129
+ is running unknown
+	port 65389
+ is running unknown
