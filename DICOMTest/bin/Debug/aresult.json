@@ -45,8 +45,8 @@
     }
   ],
   "deflateCompress" : false,
-  "serverTime" : "2019-05-20 14:59:51 UTC",
-  "serverTimeOffsetMillis" : -268,
+  "serverTime" : "2019-05-20 20:58:58 UTC",
+  "serverTimeOffsetMillis" : -340,
   "secureRenegotiation" : true,
   "rfc7366EtM" : false,
   "ssl2HelloFormat" : false,

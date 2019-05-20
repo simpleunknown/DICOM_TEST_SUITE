@@ -19,11 +19,13 @@ namespace DICOMTest
 {
     public partial class DICOM_Test_Tool : Form
     {
+        
         public static string G_CallingAE = "";
         public static string G_callingport;
         public static string G_callingip;
         public bool sysdetset = false;
-        public static string[] ciphers;
+       public static List<string> ciphers = new List<string>();
+        public static List<string> atciphers = new List<string>();
         public static int ciphercount=0;
         public static string[] supportedciphers = { 
 "RSA_WITH_AES_128_GCM_SHA256",
@@ -43,7 +45,9 @@ namespace DICOMTest
         public static string[] supportedssl = { "TLSv1.2", "TLSv1.3" };
         public static bool sslcheckstatus=false;
         public static  bool supportlowerver;
-        public static bool[] ciphercontained;
+        public static List<bool> ciphercontained = new List<bool>();
+        public static List<bool> atciphercontained = new List<bool>();
+        public static int sslcount;
         public DICOM_Test_Tool()
         {
             InitializeComponent();
@@ -78,15 +82,17 @@ namespace DICOMTest
             { MessageBox.Show("port closed cant proceed further");
                 this.Close();
             }
-
+            MessageBox.Show("Found open/Filtered Port proceeding to test Secure DICOM");
             Basic_Test abt = new Basic_Test();
             bool autecho=abt.autoecho();
             if( autecho==true)
             {
+                MessageBox.Show("C-Echo success Proceeding to dump patient details");
                 abt.autofind();
             }
             else if( autecho==false)
             {
+                MessageBox.Show("C-Echo fail proceeding to test SSL/TLS cipher suites");
                 bool atsslcheck = autossl();
                 if (atsslcheck == true)
                 { MessageBox.Show("Meets the DICOM Standars");
@@ -118,19 +124,19 @@ namespace DICOMTest
         {
             if (sysdetset == true)
             {
-
+                
                 string strCmdText;
                 SSLResults sslresform = new SSLResults();
 //                sslresform.ShowDialog();
                 ProcessStartInfo startinfo = new ProcessStartInfo();
                 Process cmd = new Process();
-                //strCmdText = "/C" + " " + " -json " + " \"" + Directory.GetCurrentDirectory() + "\\aresult.json" + "\" " + G_callingip + " " + G_callingport;
+                
                 strCmdText = "/C" + " " + "TestSSLServer2.exe -json " + " \"" + Directory.GetCurrentDirectory() + "\\aresult.json" + "\" " + G_callingip + " " + G_callingport;
-                //strCmdText = "/C" + " " + "strings" + " \"" + line + "\"";
+               
                  cmd.StartInfo.WorkingDirectory = @"C:\Windows\System32";
-                //cmd.StartInfo.WorkingDirectory = @"C:\Users\310253271\Desktop\TestSSLServer-master\";
+                
                 cmd.StartInfo.FileName = "cmd.exe";
-               // cmd.StartInfo.FileName = "TestSSLServer2.exe";
+               
                 cmd.StartInfo.Arguments = strCmdText.ToString();
                 cmd.StartInfo.UseShellExecute = false;
                 cmd.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
@@ -138,19 +144,16 @@ namespace DICOMTest
                 cmd.Start();
                 cmd.WaitForExit();
                 // parsing json output of test ssl server
-                string jsonfile = Directory.GetCurrentDirectory() + "\\aresult.json"+"\" ";
-                //var k = "TLSV1.2";
-                //Object o1 = JObject.Parse(File.ReadAllText(jsonfile))[];
+                string jsonfile = Directory.GetCurrentDirectory() + "\\aresult.json";
+              
 
                 // read JSON directly from a file
-                using (StreamReader jfile = File.OpenText(@"C:\Users\310253271\Desktop\cpp\DICOMTest\DICOMTest\bin\Debug\aresult.json"))
+                using (StreamReader jfile = File.OpenText(jsonfile))
                 using (JsonTextReader reader = new JsonTextReader(jfile))
                 {
                     JObject o2 = (JObject)JToken.ReadFrom(reader);
                     IList<string> keys = o2.Properties().Select(p => p.Name).ToList();
-                    //string rem= o2.SelectToken("TLSv1.2[1]").ToString();
-                    //Console.WriteLine(o2.SelectToken("TLSv1.2"));
-                    // string test= o2.SelectToken("TLSv1.2.suites[0].name").ToString();
+                    
                     if ((keys.Any(l => l.Contains("TLS"))) || (keys.Any(l => l.Contains("SSL"))))
                     {
                         sslcheckstatus = true;
@@ -177,15 +180,25 @@ namespace DICOMTest
                         MessageBox.Show(String.Format("The SSL/TLS version detected is supported , the version is {0}", foundkeys));
                           //loop for ciphers
                             
-                            ciphercount = 0;
-                        foreach (string stoke in (o2.SelectTokens("['TLSv1.2'].suites[0].name")))
-                        {
-                            ciphercount++;
-                            ciphers[ciphercount] = stoke;
-                            ciphercontained[ciphercount] = supportedciphers.Contains(ciphers[ciphercount]);
-                        }
+                            
+                                         
 
-                        
+
+                        foreach (var st in o2.SelectTokens("['TLSv1.2'].suites[0].name"))
+                        {
+                            ciphers.Add(st.ToString());
+                            
+                        }
+                        ciphers.ToArray();
+
+                        foreach( string cp in ciphers)
+                        {
+                            ciphercontained.Add(supportedciphers.Contains(cp));
+                        }
+                        ciphercontained.ToArray();
+
+                          
+
                         // code to match cipher suites with dicom standards
                         if (!(ciphercontained.Contains(false)))
                         {
@@ -265,25 +278,32 @@ namespace DICOMTest
                 if (supportlowerver == false)
                 {
 
-                    
-                    ciphercount = 0;
-                    foreach (string stoke in (o2.SelectTokens("['TLSv1.2'].suites[0].name")))
+
+
+                    foreach (var st in o2.SelectTokens("['TLSv1.2'].suites[0].name"))
                     {
-                        ciphercount++;
-                        ciphers[ciphercount] = stoke;
-                        ciphercontained[ciphercount] = supportedciphers.Contains(ciphers[ciphercount]);
+                        atciphers.Add(st.ToString());
+
                     }
+                    atciphers.ToArray();
+
+                    foreach (string cp in atciphers)
+                    {
+                        atciphercontained.Add(supportedciphers.Contains(cp));
+                    }
+                    atciphercontained.ToArray();
+
 
 
                     // code to match cipher suites with dicom standards
-                    if (!(ciphercontained.Contains(false)))
+                    if (!(atciphercontained.Contains(false)))
                     {
                         setssl = true;
                     }
                     else
                     {
                         string todisplay = string.Join(Environment.NewLine, supportedciphers);
-                        string todisplayciphers = string.Join(Environment.NewLine, ciphers);
+                        string todisplayciphers = string.Join(Environment.NewLine, atciphers);
 
                         setssl = false;
                     }
