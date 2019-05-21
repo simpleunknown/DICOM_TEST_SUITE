@@ -10,7 +10,8 @@ These Patient details can be used to further retrieve the .dcm files, using the 
 
 If the C-ECHO Fails due to the implementation of SSL/TLS we check for the version of SSL/TLS and the cipher suites supported, which would be compared to the DICOM standards that NEMA proposed.
 
-![](https://drive.google.com/open?id=1Funh1j3gGPsznpQt2hd7EMnp1m7DSOcF)
+![](https://user-images.githubusercontent.com/50069880/58115648-226ae180-7c18-11e9-9b94-67c050efb525.png)
+
 _Figure: Tool UI_
 
 ## Tool Working
@@ -31,13 +32,16 @@ The results are shown containing the service name and status in a window.
 
 User can also keep the port as blank, in which case the application scans for all 65535 ports and writes them into a file saying which all port are open and which service&#39;s are running in them.
 
-![](https://drive.google.com/open?id=1P5Eh3ZPsJCTp9z0MmfxLKCti1TIOpVKO)
+![](https://user-images.githubusercontent.com/50069880/58115647-21d24b00-7c18-11e9-8c78-7a3cbd671a83.png)
+
 _Figure: Entering Configuration details._
 
-![](https://drive.google.com/open?id=1B98cLeTTeFVkCJPNI34ZfNre3Ah-TTKx)
+![](https://user-images.githubusercontent.com/50069880/58115646-21d24b00-7c18-11e9-87b2-135ee7d339b2.png)
+
 _Figure: Scan Initiated._
 
-![](https://drive.google.com/open?id=1nUv8PDs463Qbv4ttooayDfCDt33hmTtk)
+![](https://user-images.githubusercontent.com/50069880/58115643-2139b480-7c18-11e9-87c8-9b71ff5cbb11.png)
+
 _Figure: Scan Results._
 
 ### Basic Tests
@@ -47,13 +51,16 @@ This module performs basic DICOM C-ECHO Message and checks for the response, whi
 If the C-ECHO Messages are failed due to the implementation of SSL/TLS then the test stops for querying patient info and proceeds to check for SSL/TLS test.
 
 
-![](https://drive.google.com/open?id=1DAf-wzcp3B2rzPbQrU-ZPciemuAVKKr6)
+![](https://user-images.githubusercontent.com/50069880/58115641-2139b480-7c18-11e9-93b5-5b43e5c7cb81.png)
+
 _Figure: Basic Tests_
 
-![](https://drive.google.com/open?id=1SRCpCEaaOPOpWXD3tOZO9DLYUUYkInVN)
+![](https://user-images.githubusercontent.com/50069880/58115639-2139b480-7c18-11e9-8f22-2debffbb518f.png)
+
 _Figure: C-Echo success as the SSL/TLS over DICOM communication is not implemented._
 
-![](https://drive.google.com/open?id=1FUklCOWux1aCMbRw48I-fwlh628SZ67m)
+![](https://user-images.githubusercontent.com/50069880/58115638-20a11e00-7c18-11e9-85c0-8d6bec33c1e0.png)
+
 _Figure: Dumping patient details into File in local system._
 
 ### SSL Test
@@ -64,13 +71,16 @@ It then compares the result with the DICOM Standards, which do not allow any TLS
 
 If the Standards does not meet the tool outputs message saying the standards are not met, erstwhile with a success Message.
 
-![](https://drive.google.com/open?id=1ASrxS6g95crhv3C9ychBX_ywkUf5csCF)
+![](https://user-images.githubusercontent.com/50069880/58115636-20a11e00-7c18-11e9-80d4-ea676684886f.png)
+
 _Figure: Performing SSL Scan on the application listening over Secure DICOM Port._
 
-![](https://drive.google.com/open?id=1T0Cfci_gICw3ntZDh4fXdsLGu8CTmL5v)
+![](https://user-images.githubusercontent.com/50069880/58115635-20a11e00-7c18-11e9-9516-345478af5d99.png)
+
 _Figure: Displaying the List of cipher suites supported by DICOM Standard._
 
-![](https://drive.google.com/open?id=1pd0tOT5oIA9SzSF2j0u4PxMCkbJcTUJt)
+![](https://user-images.githubusercontent.com/50069880/58115634-20088780-7c18-11e9-84a3-949530cdf88b.png)
+
 _Figure: Displaying the List of cipher suites detected._
 
 
@@ -80,14 +90,22 @@ _Figure: Displaying the List of cipher suites detected._
 This module covers all the above three mentioned above into a single one, and results are written into a Log. No user interaction is needed once clicked on autos can it covers all the three phases and publishes the results.
 
 
-![](https://drive.google.com/open?id=1fCvqlHR1nJPpOTaPznCOBBQ6ZVa6zSha)
+![](https://user-images.githubusercontent.com/50069880/58115633-20088780-7c18-11e9-9f96-098d183dc273.png)
+
 _Figure: Auto scan initiated._
 
-![](https://drive.google.com/open?id=1k7Vqn5snA3k0y0RvvMDR7EYEEhoWLN1Z)
+![](https://user-images.githubusercontent.com/50069880/58115632-20088780-7c18-11e9-8762-f7a32771ad16.png)
+
 _Figure: Auto scan completed port scan detection._
-![](https://drive.google.com/open?id=1TJs12CLw5U6n4J0TkX85KI2Os4I9vmvE)
+
+![](https://user-images.githubusercontent.com/50069880/58115631-1f6ff100-7c18-11e9-9865-4fdf90747a37.png)
+
 _Figure: Auto scan performing Basic DICOM Tests._
-![](https://drive.google.com/open?id=1_dJO1CzrnhWPJ1pH6jEcUtd0cfjgpv_q)
+
+![](https://user-images.githubusercontent.com/50069880/58115630-1f6ff100-7c18-11e9-9999-a81c54e012fb.png)
+
 _Figure: Tool Determining the Status of DICOM Tests conducted._
-![](https://drive.google.com/open?id=1FeegRy_J1wHIlwk1Sqvm1W2vfV0VB4NN)
+
+![](https://user-images.githubusercontent.com/50069880/58115629-1f6ff100-7c18-11e9-9a4d-3c77fc9daf78.png)
+
 _Figure: Test completed with Results saved in Log._
