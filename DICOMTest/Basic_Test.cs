@@ -22,9 +22,9 @@ namespace DICOMTest
         public bool echostat,findstat = false;
         private string studyInstanceUid;
        public static string Basic_calling_ae = "SCU";
-       public string Basic_called_ae = DICOM_Test_Tool.G_CallingAE;
-    public   string Basic_called_ip = DICOM_Test_Tool.G_callingip;
-   public     string Basic_called_port = DICOM_Test_Tool.G_callingport;
+       public string Basic_called_ae = DICOM_TEST.G_CallingAE;
+    public   string Basic_called_ip = DICOM_TEST.G_callingip;
+   public     string Basic_called_port = DICOM_TEST.G_callingport;
 
         public Basic_Test()
         {
@@ -62,6 +62,8 @@ namespace DICOMTest
                     {
                         echostat = false;
                         MessageBox.Show("C-Echo failure");
+                        this.Close();
+
                     }
                 };
                 client.NegotiateAsyncOps();
@@ -74,6 +76,8 @@ namespace DICOMTest
             catch (Exception exc)
             {
                 if (!(exc is DicomException)) Console.WriteLine(exc.ToString());
+                MessageBox.Show("C-Echo failure SSL issue");
+                this.Close();
             }
              
     }
@@ -187,8 +191,8 @@ namespace DICOMTest
                 { return false; }
              
         }
-        public void autofind()
-        {
+        public void autofind(string dt)
+        {//string AutoscanLog = Directory.GetCurrentDirectory() + "\\Autoscan"+"--"+DateTime.Now.ToString()+".txt" + " ";
             bool findloop = false;
             string scanresultsfile = Directory.GetCurrentDirectory() + "\\autocfindresults.txt" + " ";
 
@@ -199,11 +203,21 @@ namespace DICOMTest
                     if (rp.Status == DicomStatus.Success || rp.Status == DicomStatus.Pending)
                     {
                         MessageBox.Show(string.Format("Patient details are writeen into file: {0}", scanresultsfile));
+                        using (StreamWriter sw = File.AppendText(dt))
+                        {
+                            sw.WriteLine(string.Format("C-Find status: Pass \n"));
+
+                        }
                     }
                     else if (!(rp.Status == DicomStatus.Success || rp.Status == DicomStatus.Pending))
                     {
                         MessageBox.Show("Cannot dump patient details");
                         this.Close();
+                        using (StreamWriter sw = File.AppendText(dt))
+                        {
+                            sw.WriteLine(string.Format("C-Find status: Fail \n"));
+
+                        }
                     }
 
                     if (!(File.Exists(scanresultsfile)))

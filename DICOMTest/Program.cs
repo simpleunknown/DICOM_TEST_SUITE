@@ -16,7 +16,7 @@ namespace DICOMTest
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DICOM_Test_Tool());
+            Application.Run(new DICOM_TEST());
         }
     }
 }

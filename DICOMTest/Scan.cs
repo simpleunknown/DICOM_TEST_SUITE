@@ -17,9 +17,11 @@ namespace DICOMTest
 {
     public partial class Scan : Form
     {
+        
         public Scan()
         {
             InitializeComponent();
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -29,9 +31,15 @@ namespace DICOMTest
 
         private void Scan_Load(object sender, EventArgs e)
         {
-           // string Cae = DICOM_Test_Tool.G_CallingAE;
-            string cport = DICOM_Test_Tool.G_callingport;
-            string cip = DICOM_Test_Tool.G_callingip;
+            //DICOM_TEST dtprog = new DICOM_TEST();
+            ////dtprog.Show();
+            //dtprog.Refresh();
+            label3.Text = "Scan in progress";
+            //label3.Refresh();
+            
+            // string Cae = DICOM_Test_Tool.G_CallingAE;
+            string cport = DICOM_TEST.G_callingport;
+            string cip = DICOM_TEST.G_callingip;
             var target = new Target(IPAddress.Parse(cip));
             //string pt = "2500";
             //ScanType sct = new ScanType();
@@ -39,7 +47,7 @@ namespace DICOMTest
              
             if (!(string.IsNullOrEmpty(cport)))
             {
-
+               // dtprog.LabelText = "Scan in progress";
                 ScanResult result = new Scanner(target, System.Diagnostics.ProcessWindowStyle.Hidden).PortScan(ScanType.Default, cport);
 
                 foreach (Host i in result.Hosts)
@@ -111,8 +119,12 @@ namespace DICOMTest
                 textBox1.Text = "N/A";
                 textBox2.Text = "N/A";
             }
-           
-            
+
+            //DICOM_TEST ldtprog = new DICOM_TEST("Scan completed");
+            //ldtprog.Show();
+
+
+
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -124,8 +136,8 @@ namespace DICOMTest
         public string Autoscan()
         {
            
-            string cport = DICOM_Test_Tool.G_callingport;
-            string cip = DICOM_Test_Tool.G_callingip;
+            string cport = DICOM_TEST.G_callingport;
+            string cip = DICOM_TEST.G_callingip;
             var target = new Target(IPAddress.Parse(cip));
             
 
